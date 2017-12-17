@@ -84,7 +84,7 @@
 
 		<!--feilong-net-filetransfer -->
 		<dependency>
-			<groupId>com.feilong.platform.tools</groupId>
+			<groupId>com.feilong.net</groupId>
 			<artifactId>feilong-net-filetransfer</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
