@@ -116,6 +116,13 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
+		<!-- feilong-xml-xstream -->
+		<dependency>
+			<groupId>com.feilong.xml</groupId>
+			<artifactId>feilong-xml-xstream</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
