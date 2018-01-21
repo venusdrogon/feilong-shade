@@ -34,7 +34,6 @@
 		<dependency>
 			<groupId>com.feilong.platform</groupId>
 			<artifactId>feilong-formatter</artifactId>
-			<version>${version.feilong-platform}</version>
 		</dependency>
 
 		<!-- feilong-accessor -->
@@ -85,10 +84,25 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!-- feilong-tools-middleware -->
+		<!-- feilong-tools-mobile -->
 		<dependency>
 			<groupId>com.feilong.platform.tools</groupId>
-			<artifactId>feilong-tools-middleware</artifactId>
+			<artifactId>feilong-tools-mobile</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+		<!-- feilong-tools-money -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-money</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+
+		<!--feilong-tools-iplookup -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-iplookup</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
