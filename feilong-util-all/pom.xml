@@ -77,12 +77,24 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
+		<!-- ****************************************** net *************************************************************** -->
+
 		<!--feilong-net-filetransfer -->
 		<dependency>
 			<groupId>com.feilong.net</groupId>
 			<artifactId>feilong-net-filetransfer</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
+
+
+		<!-- feilong-net-jsoup -->
+		<dependency>
+			<groupId>com.feilong.net</groupId>
+			<artifactId>feilong-net-jsoup</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+		<!-- ****************************************** tools *************************************************************** -->
 
 		<!-- feilong-tools-mobile -->
 		<dependency>
@@ -98,7 +110,6 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-
 		<!--feilong-tools-iplookup -->
 		<dependency>
 			<groupId>com.feilong.platform.tools</groupId>
@@ -106,17 +117,26 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
+		<!-- feilong-tools-barcode -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-barcode</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+		<!--feilong-tools-emailaddress -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-emailaddress</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+		<!-- *****************************************end************************************************************** -->
+
 		<!-- feilong-security -->
 		<dependency>
 			<groupId>com.feilong.platform</groupId>
 			<artifactId>feilong-security</artifactId>
-		</dependency>
-
-		<!-- feilong-net-jsoup -->
-		<dependency>
-			<groupId>com.feilong.net</groupId>
-			<artifactId>feilong-net-jsoup</artifactId>
-			<version>${version.feilong-platform}</version>
 		</dependency>
 
 		<!-- feilong-office-csv -->
