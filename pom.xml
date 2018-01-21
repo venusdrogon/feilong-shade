@@ -13,7 +13,6 @@
 	<modules>
 		<module>feilong-util-all</module>
 		<module>feilong-spring-all</module>
-		<module>feilong-tools-all</module>
 		<module>feilong-netpay-all</module>
 	</modules>
 
