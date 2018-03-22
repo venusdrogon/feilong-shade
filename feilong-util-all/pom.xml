@@ -163,6 +163,13 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
+		<!-- feilong-webservice-cxf -->
+		<dependency>
+			<groupId>com.feilong.platform.webservice</groupId>
+			<artifactId>feilong-webservice-cxf</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
