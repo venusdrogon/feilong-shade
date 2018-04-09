@@ -16,10 +16,6 @@
 		<module>feilong-netpay-all</module>
 	</modules>
 
-	<properties>
-		<v.maven-shade-plugin>3.1.0</v.maven-shade-plugin>
-	</properties>
-
 	<build>
 		<plugins>
 
