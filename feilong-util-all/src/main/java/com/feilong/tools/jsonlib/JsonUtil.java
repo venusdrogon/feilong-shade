@@ -23,8 +23,6 @@ import java.util.TreeMap;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.feilong.core.lang.reflect.FieldUtil;
-import com.feilong.json.SensitiveWords;
 import com.feilong.json.jsonlib.JavaToJsonConfig;
 import com.feilong.json.jsonlib.JsonToJavaConfig;
 import com.feilong.json.jsonlib.processor.SensitiveWordsJsonValueProcessor;
@@ -513,23 +511,12 @@ public final class JsonUtil{
     }
 
     /**
-     * 格式化一个对象 <code>obj</code> 里面所有的field 的名字和值.
-     * 
-     * <h3>代码流程:</h3>
-     * 
-     * <blockquote>
-     * <ol>
-     * <li>如果field上 标识了 {@link SensitiveWords}注解,那么会使用 {@link SensitiveWordsJsonValueProcessor}混淆敏感数据的输出</li>
-     * </ol>
-     * </blockquote>
-     * 
+     * since 1.10.7 change package 'com.feilong.json', pls use
+     * {@link com.feilong.json.jsonlib.JsonUtil#formatObjectFieldsNameAndValueMap(Object)}.
+     *
      * @param obj
      *            可以是Java bean
-     * @return 如果 <code>obj</code> 是null,返回 {@link StringUtils#EMPTY}<br>
-     *         否则取到该对象 所有field 的name 和value值 map {@link FieldUtil#getAllFieldNameAndValueMap(Object, String...)} 调用
-     *         {@link #format(Object, JavaToJsonConfig)},再次过程中,会处理 {@link SensitiveWords}
-     * @see FieldUtil#getAllFieldNameAndValueMap(Object, String...)
-     * @see org.apache.commons.lang3.reflect.FieldUtils#getFieldsListWithAnnotation(Class, Class)
+     * @return the string
      * @since 1.5.6
      * @deprecated since 1.10.7 change package 'com.feilong.json', pls use
      *             {@link com.feilong.json.jsonlib.JsonUtil#formatObjectFieldsNameAndValueMap(Object)}
