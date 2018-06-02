@@ -18,6 +18,13 @@
 			<artifactId>feilong-core</artifactId>
 		</dependency>
 
+		<!--feilong-context -->
+		<dependency>
+			<groupId>com.feilong.platform</groupId>
+			<artifactId>feilong-context</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
 		<!--feilong-servlet -->
 		<dependency>
 			<groupId>com.feilong.platform</groupId>
