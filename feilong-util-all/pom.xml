@@ -87,13 +87,6 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!--feilong-bind -->
-		<dependency>
-			<groupId>com.feilong.platform</groupId>
-			<artifactId>feilong-bind</artifactId>
-			<version>${version.feilong-platform}</version>
-		</dependency>
-
 		<!-- ****************************************** net *************************************************************** -->
 
 		<!--feilong-net-filetransfer -->
