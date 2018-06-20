@@ -54,7 +54,6 @@
 		<dependency>
 			<groupId>com.feilong.platform</groupId>
 			<artifactId>feilong-io</artifactId>
-			<version>${version.feilong-platform}</version>
 		</dependency>
 
 		<!--feilong-httpclient4 -->
@@ -87,7 +86,7 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!-- ****************************************** net *************************************************************** -->
+		<!-- ******************** net ************************************* -->
 
 		<!--feilong-net-filetransfer -->
 		<dependency>
@@ -104,7 +103,7 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!-- ****************************************** tools *************************************************************** -->
+		<!-- ****************tools ******************************************* -->
 
 		<!-- feilong-tools-mobile -->
 		<dependency>
@@ -141,7 +140,14 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!-- *****************************************end************************************************************** -->
+		<!--feilong-tools-zip-compress -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-zip-compress</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+		<!-- ***************end*********************************** -->
 
 		<!-- feilong-security -->
 		<dependency>
