@@ -83,7 +83,6 @@
 		<dependency>
 			<groupId>com.feilong.platform</groupId>
 			<artifactId>feilong-validator</artifactId>
-			<version>${version.feilong-platform}</version>
 		</dependency>
 
 		<!-- ******************** net ************************************* -->
@@ -144,6 +143,13 @@
 		<dependency>
 			<groupId>com.feilong.platform.tools</groupId>
 			<artifactId>feilong-tools-zip-compress</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
+		<!--feilong-tools-pinyin -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-pinyin</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
