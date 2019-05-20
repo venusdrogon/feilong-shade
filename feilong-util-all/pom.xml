@@ -153,6 +153,13 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
+		<!--feilong-tools-ccvideo since 1.13.3 -->
+		<dependency>
+			<groupId>com.feilong.platform.tools</groupId>
+			<artifactId>feilong-tools-ccvideo</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
 		<!-- ***************end*********************************** -->
 
 		<!-- feilong-security -->
