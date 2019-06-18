@@ -204,7 +204,7 @@ public final class JsonUtil{
      * user.setPassword("123456");
      * user.setId(8L);
      * user.setName("feilong");
-     * user.setDate(new Date());
+     * user.setDate(now());
      * user.setMoney(toBigDecimal("99999999.00"));
      * 
      * user.setLoves(toArray("桔子", "香蕉"));
@@ -271,7 +271,7 @@ public final class JsonUtil{
      * user.setPassword("123456");
      * user.setId(8L);
      * user.setName("feilong");
-     * user.setDate(new Date());
+     * user.setDate(now());
      * user.setMoney(toBigDecimal("99999999.00"));
      * 
      * user.setLoves(toArray("桔子", "香蕉"));
