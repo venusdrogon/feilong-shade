@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.feilong.platform</groupId>
 		<artifactId>feilong-shade</artifactId>
-		<version>1.13.3-SNAPSHOT</version>
+		<version>1.14.0</version>
 	</parent>
 
 	<artifactId>feilong-util-all</artifactId>
@@ -153,10 +153,10 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!--feilong-tools-ccvideo since 1.13.3 -->
+		<!--feilong-vendor-ccvideo since 1.14.0 -->
 		<dependency>
-			<groupId>com.feilong.platform.tools</groupId>
-			<artifactId>feilong-tools-ccvideo</artifactId>
+			<groupId>com.feilong.platform.vendor</groupId>
+			<artifactId>feilong-vendor-ccvideo</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
