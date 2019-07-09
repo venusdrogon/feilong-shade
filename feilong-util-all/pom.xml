@@ -160,6 +160,13 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
+		<!--feilong-vendor-sensorsdata since 1.14.0 -->
+		<dependency>
+			<groupId>com.feilong.platform.vendor</groupId>
+			<artifactId>feilong-vendor-sensorsdata</artifactId>
+			<version>${version.feilong-platform}</version>
+		</dependency>
+
 		<!-- ***************end*********************************** -->
 
 		<!-- feilong-security -->
