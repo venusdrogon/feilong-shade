@@ -14,18 +14,18 @@
 	</properties>
 
 	<dependencies>
+
+		<!--feilong-util-all -->
+		<dependency>
+			<groupId>com.feilong.platform</groupId>
+			<artifactId>feilong-util-all</artifactId>
+		</dependency>
+
 		<!--feilong-spring-all -->
 		<dependency>
 			<groupId>com.feilong.platform.spring</groupId>
 			<artifactId>feilong-spring-all</artifactId>
 			<version>${version.feilong-spring}</version>
-		</dependency>
-
-		<!-- spel util 要覆盖 -->
-		<!--feilong-util-all -->
-		<dependency>
-			<groupId>com.feilong.platform</groupId>
-			<artifactId>feilong-util-all</artifactId>
 		</dependency>
 
 		<!--feilong-captcha-netease -->
@@ -34,7 +34,6 @@
 			<artifactId>feilong-captcha-netease</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
-
 
 		<!--feilong-captcha-botdetect -->
 		<dependency>
