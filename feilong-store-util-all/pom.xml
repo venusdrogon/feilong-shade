@@ -10,7 +10,7 @@
 
 	<properties>
 		<!-- for spring 3 -->
-		<version.feilong-spring>1.10.7</version.feilong-spring>
+		<version.feilong-spring>1.12.11</version.feilong-spring>
 	</properties>
 
 	<dependencies>
