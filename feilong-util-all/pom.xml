@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.feilong.platform</groupId>
 		<artifactId>feilong-shade</artifactId>
-		<version>1.14.0</version>
+		<version>1.14.1</version>
 	</parent>
 
 	<artifactId>feilong-util-all</artifactId>
@@ -153,14 +153,14 @@
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!--feilong-vendor-ccvideo since 1.14.0 -->
+		<!--feilong-vendor-ccvideo since 1.14.1 -->
 		<dependency>
 			<groupId>com.feilong.platform.vendor</groupId>
 			<artifactId>feilong-vendor-ccvideo</artifactId>
 			<version>${version.feilong-platform}</version>
 		</dependency>
 
-		<!--feilong-vendor-sensorsdata since 1.14.0 -->
+		<!--feilong-vendor-sensorsdata since 1.14.1 -->
 		<dependency>
 			<groupId>com.feilong.platform.vendor</groupId>
 			<artifactId>feilong-vendor-sensorsdata</artifactId>

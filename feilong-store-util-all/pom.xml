@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.feilong.platform</groupId>
 		<artifactId>feilong-shade</artifactId>
-		<version>1.14.0</version>
+		<version>1.14.1</version>
 	</parent>
 	<artifactId>feilong-store-util-all</artifactId>
 	<description>商城端所有,含验证码,含 feilong-spring</description>
